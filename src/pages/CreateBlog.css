@@ -1,0 +1,74 @@
+/* CreateBlog.css */
+
+/* Styles for the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: turquoise; /* Black background color */
+    color: black; /* White text color */
+  }
+  
+  /* Styles for the navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333; /* Dark gray background color for the navbar */
+    padding: 10px;
+    color: white;
+
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar-buttons button {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the create-blog container */
+  .create-blog-container {
+    padding: 20px;
+  }
+  
+  .create-blog-content {
+    margin-top: 50px;
+    border: black solid 5px;
+  }
+
+  .h2 {
+    border: black solid 5px;
+  }
+
+  .blog {
+    margin-top: 50px;
+    border: black solid 1px;
+  }
+
+  .blog-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Styles for the input field and buttons */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background color for the buttons */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  

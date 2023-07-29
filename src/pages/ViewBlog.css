@@ -1,0 +1,51 @@
+
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  /* Styles for individual blog items */
+  .blog-item {
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid black;
+
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background color for buttons */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styles for the blog details in the new window */
+  body.blog-details {
+    background-color: #f5f5f5; /* Light gray background color */
+    color: #333; /* Dark gray text color */
+    padding: 20px;
+  }
+  
+  h1.blog-title {
+    text-align: center;
+  }
+  
+  .blog-content {
+    margin-top: 20px;
+  }
+  
+ 
+  .image {
+    width: 200px;
+  }
+  
